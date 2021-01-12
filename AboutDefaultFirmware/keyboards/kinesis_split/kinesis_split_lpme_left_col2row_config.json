@@ -1,0 +1,24 @@
+{"config":{
+    "version":2,
+    "device_info":{"vid":"0xFEED","pid":"0x3060",
+        "name":"kinesis-split","manufacture":"kinesis-split","description":"kinesis split keyboard"},
+    "matrix":{"debounce":1,"is_left_hand":1,"diode_direction":2,
+        "rows":12,"cols":7,"device_rows":6,"device_cols":7,
+        "row_pins":[14,15,16,17,18,19, 12,10,11,19,20,14],
+        "col_pins":[20,13,10,11,12,8,9, 18,17,16,15,13,8,9],
+        "layout":[
+             1, 8,15,22,29,36,  43,50,57,64,71,78, 0,
+             2, 9,16,23,30,37,  44,51,58,65,72,79, 0,
+             3,10,17,24,31,38,  45,52,59,66,73,80, 0,
+             4,11,18,25,32,39,  46,53,60,67,74,81, 0,
+               12,19,26,40,        47,61,68,75,    0,
+                     34,35,42,  69,49,48,          0,
+                  41,20,   28,  55,   63,56
+        ]},
+    "mode":"SINGLE","startup":1,
+    "peripheral":{"max_interval":30,"min_interval":30,"slave_latency":16},
+    "central":{"max_interval":30,"min_interval":30,"slave_latency":0},
+    "led":{"pin":1,"num":10},
+    "keymap":{"locale":"US","use_ascii":0},
+    "reserved":[0,2,0,0,0,0,0,0]
+}}
